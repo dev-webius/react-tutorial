@@ -1,0 +1,44 @@
+.block {
+	width: 300px;
+	height: 300px;
+	border: 1px solid #ddd;
+
+	> div {
+		display: block;
+		width: 100px;
+		height: 100px;
+		background-color: blue;
+
+		margin-left: auto;
+	}
+}
+
+.inline-block {
+	width: 300px;
+	height: 300px;
+	border: 1px solid #ddd;
+
+	> div {
+		display: inline-block;
+		width: 100px;
+		height: 100px;
+		background-color: yellow;
+
+		text-align: right;
+	}
+}
+
+.inline {
+	width: 300px;
+	height: 300px;
+	border: 1px solid #ddd;
+
+	> div {
+		display: inline;
+		width: 100px;
+		height: 100px;
+		background-color: yellow;
+
+		text-align: right;
+	}
+}
